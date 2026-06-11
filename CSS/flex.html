@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 200vh;
+        }
+        .container{
+            display: block;
+            background-color: brown;
+            width: 100px;
+        }
+        .inline{
+            display: inline;
+            background-color: aqua;
+            width: 100px;
+        }
+        .inlineBlock{
+            display: inline-block; 
+            background-color: aquamarine; 
+            width: 100px;
+        }
+        .navbar{
+            background-color: rgb(58, 58, 59);
+            display: flex;
+            flex-direction: row;            
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .link{
+            background-color: rgb(196, 176, 176);
+            color: black;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .link{
+            text-decoration: none;
+        }
+        .list{
+            list-style-type: none;
+        }
+        .link:hover{
+            background-color: rgb(109, 103, 84);
+            color: brown;
+        }
+        body{
+            background-image: url(../Assets/image.png);
+            background-position: 10px;
+            background-size: cover;
+            background-repeat: no-repeat;
+           background-attachment: fixed;
+        }
+        nav{
+            position: sticky;
+            top: 0;
+        }   
+    </style>
+</head>
+<body>
+    <nav>
+    <ul class="navbar">
+        <li class="list"><a href="" class="link">Home</a></li>
+        <li class="list"><a href="" class="link">About</a></li>
+        <li class="list"><a href="" class="link">Contact</a></li>
+        <li class="list"><a href="" class="link">Service</a></li>
+    </ul>
+    </nav>
+    <p class="container"><i>Lorem ipsum dolor sit amet.</i></p>
+    <p class="inline"><i>Lorem ipsum dolor sit amet.</i></p>
+    <p class="inlineBlock"><i>Lorem ipsum dolor sit amet.</i></p>
+    <span><i>Lorem ipsum dolor sit amet.</i></span>
+</body>
+</html>
