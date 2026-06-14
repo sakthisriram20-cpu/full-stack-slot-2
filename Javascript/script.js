@@ -168,3 +168,49 @@
 // var c = 0;
 // var result = a++ + --b + ++c - ++a + ++b + c++ + b++ + a;
 // console.log(result);
+// do{
+//     console.log("Do...While");
+// }while(false);
+
+// while(false){
+//     console.log("While Example");
+// }
+// for(let i=1;i<=10;i++){
+//     if(i>5){
+//         break;
+//     }
+//      console.log(i);
+// }
+// for(let i=1;i<=10;i++){
+//     if(i==5){
+//         continue;
+//     }
+//     console.log(i);
+// }
+// function add(){
+//     console.log(10+20);
+// }
+// add();
+// add();
+// add();
+// function add(a,b){
+//     console.log(a+b);
+// }
+// add(10+40);
+// add();
+// add();  
+// function add(a=10,b=15){
+//     console.log(a+b);
+// }
+// add(10,40);
+// add(25,30);
+// add(20);
+// add(); 
+// 
+// var arr = [1,2,3,4,5];
+// var square = arr.map((val) => (val**2));
+// console.log(square)
+// var even = arr.filter((val)=>(val%2===0));
+// console.log(even);
+// var sum = arr.reduce((total,val)=> (total+val),0);
+// console.log (sum);
